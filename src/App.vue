@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <router-link to='/'><button>返回首页</button></router-link>
+    <router-link to='/provide'><button>provide/inject</button></router-link>
+    <router-link to='/keepalive'><button>keepalive</button></router-link>
     <router-view></router-view>
   </div>
 </template>
